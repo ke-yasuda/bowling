@@ -146,7 +146,7 @@ describe "ボウリングのスコア計算" do
                 #3～9フレームは全てガター
                 add_many_scores(14,0)
                 #最終フレームでストライク
-                @game.add_many_scores(10)
+                @game.add_score(10)
                 #合計を計算
                 @game.calc_score
                 #期待する合計 ※()内のボーナス点
